@@ -1,0 +1,60 @@
+[[$site-header]]
+
+[[$site-crumbs]]
+
+<article class="container container__category">
+
+	<div class="row category">
+
+		[[!mFilter2?
+		&parents=`15`
+		&tplOuter=`site-tpl.mFilter2.outer`
+		&tpl=`site-category-card`
+		&limit=`9`
+		&ajaxMode=`button`
+		&ajaxTplMore=`tplMoreButton`
+		&includeTVs=`price,ostatok,tovarType,image,power,ktrubok,akbvolt`
+		&filters=`
+		tv|invertertype:select,
+		tv|tovarType:select,
+		tv|ktrubok:select,
+		tv|manufact:default,
+		tv|bak:default,
+		tv|power:number,
+		tv|akbvolt:default,
+		tv|akbcap:select,
+		tv|tolshina:select,
+		tv|tolshinastenki:select,
+		tv|marka:default,
+		tv|inv:boolean,
+		tv|deviceType:select,
+		tv|powerType:select,
+		tv|diametr:select
+		`
+		&tplFilter.row.tv|manufact=`tpl.mFilter2.filter.checkbox`
+		&tplFilter.row.tv|ktrubok=`tpl.mFilter2.filter.checkbox`
+		&tplFilter.row.tv|akbvolt=`tpl.mFilter2.filter.checkbox`
+		&tplFilter.row.tv|akbcap=`tpl.mFilter2.filter.checkbox`
+		&tplFilter.row.tv|bak=`tpl.mFilter2.filter.checkbox`
+		&tplFilter.outer.tv|power=`tpl.mFilter2.filter.slider`
+		&tplFilter.row.tv|power=`tpl.mFilter2.filter.number`
+		&tplFilter.outer.tv|manufact2=`tpl.mFilter2.filter.select`
+		&tplFilter.row.tv|manufact2=`tpl.mFilter2.filter.option`
+		&tplFilter.outer.tv|tolshina=`tpl.mFilter2.filter.select`
+		&tplFilter.row.tv|tolshina=`tpl.mFilter2.filter.option`
+		&tplFilter.outer.tv|akbcap=`tpl.mFilter2.filter.select`
+		&tplFilter.row.tv|akbcap=`tpl.mFilter2.filter.option`
+		&tplFilter.outer.tv|tolshinastenki=`tpl.mFilter2.filter.select`
+		&tplFilter.row.tv|tolshinastenki=`tpl.mFilter2.filter.option`
+		&tplFilter.row.tv|marka=`tpl.mFilter2.filter.checkbox`
+		&tplFilter.row.tv|inv=`tpl.mFilter2.filter.checkbox`
+		&sort=`resource|menuindex:asc`
+		]]
+
+	</div>
+
+</article>
+
+[[$site-certificates]]
+
+[[$site-footer]]

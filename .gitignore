@@ -1,0 +1,17 @@
+.vscode/
+.idea/
+.git/
+
+node_modules/
+
+archive/
+ref/
+info/
+chuncks/
+
+default.json
+info.txt
+info.md
+
+*zip
+*pdf

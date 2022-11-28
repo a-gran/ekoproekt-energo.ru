@@ -1,0 +1,68 @@
+[[$site-header]]
+
+[[$site-crumbs]]
+
+<article class="container">
+	<div class="row row-product-card">
+
+		<h1>[[*pagetitle]]</h1>
+
+		<div class="col-12 col-md-4 col-lg-3 tovarimg">
+			<img src="[[*tov_img1]]" alt="[[*pagetitle]]" title="[[*pagetitle]]">
+			[[*1cid:is=``:then=``:else=`<h4>Код товара: [[*1cid]]</h4>`]]
+			[[*inv:is=``:then=`<h4 class="not-available">нет в наличии</h4>`:else=`<h4 class="in-stock">есть в наличии
+			</h4>`]]
+			[[*price:is=``:then=`<h4>наличие и цену уточняйте</h4>`:else=`<h4>Цена: [[*price:round]] руб.</h4>`]]
+
+			<div class="tovartext">
+				<form action="[[~[[*id]]? &scheme=`abs`]]" method="post">
+					<fieldset>
+						<input type="hidden" name="shk-id" value="[[*id]]" />
+						<input type="hidden" name="shk-name" value="[[*pagetitle]]" />
+						<input type="hidden" name="shk-count" value="1" />
+						<input type="hidden" name="itemPrice" value="[[*price:round]]">
+						<div class="d-flex add-to-cart">
+							[[*inv:is=``:then=`<button type="submit" class="shopbutt" disabled>Под
+								заказ</button>`:else=`<button type="submit" class="shopbutt">В корзину<i
+									class="fas fa-shopping-cart"></i></button>`]]
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+		<div class="col-12 col-md-4 col-lg-3 product-description">
+			<h3>Описание</h3>
+
+			[[*content]]
+
+		</div>
+	</div>
+	<div class="spec-table">
+
+		[[*specs]]
+
+	</div>
+</article>
+
+<!-- блок сертификатов -->
+
+[[$site-certificates]]
+
+<div class="container">
+	<div class="row row-others-products">
+		<div class="col-12">
+			<h3>Смотрите также <i class="fas fa-fire"></i></h3>
+			<div class="d-flex">
+				[[!pdoResources?
+				&parents=`15,20,17,27`
+				&tpl=`site-additional-products`
+				&limit=`4`
+				&sortby=`RAND()`
+				]]
+			</div>
+		</div>
+	</div>
+</div>
+
+[[$site-footer]]

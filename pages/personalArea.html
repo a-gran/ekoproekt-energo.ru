@@ -1,0 +1,66 @@
+[[$site-header]]
+
+<div class="container">
+	<div class="row personal-data">
+		<!--  -->
+		<div class="col-12 col-md-8 col-lg-6 personal-data__header">
+			<div class="personal-data__status">
+				<span class="personal-data__status-header">Статус:</span>
+				<span class="personal-data__status-text">Покупатели</span>
+			</div>
+			<div class="personal-data__history">
+				<span class="personal-data__history-header">История покупок</span>
+				<div class="personal-data__history-text">Вы пока ничего у нас не купили</div>
+			</div>
+			<div class="personal-data__profile">
+				<span class="personal-data__profile-header">Управление профилем</span>
+				<span class="personal-data__profile-text">Профиль обновлен</span>
+			</div>
+		</div>
+		<!--  -->
+		<form class="col-12 col-md-8 col-lg-6 col-form ajax_form" action="" method="post">
+			<h3>Персональные данные</h3>
+			<div class="form-group">
+				<label for="name" class="personal-data__form-label">ФИО</label>
+				<input class="form-control" id="name" name="name" type="text" value="" placeholder="" required />
+			</div>
+			<div class="form-group">
+				<label for="email" class="personal-data__form-label">Email</label>
+				<input class="form-control" id="email" name="email" type="email" value="" placeholder="" required />
+			</div>
+			<div class="form-group">
+				<label for="phone" class="personal-data__form-label">Контактный номер телефона</label>
+				<input class="form-control" id="phone" name="phone" type="phone" value="" placeholder="" />
+			</div>
+			<div class="form-group">
+				<label for="org" class="personal-data__form-label">Название организации</label>
+				<input class="form-control" id="org" name="org" type="text" value="" placeholder="" />
+			</div>
+			<div class="form-group">
+				<label for="city" class="personal-data__form-label">Город</label>
+				<input class="form-control" id="city" name="city" type="text" value="" placeholder="" />
+			</div>
+			<div class="form-group">
+				<label for="site" class="personal-data__form-label">Сайт</label>
+				<input class="form-control" id="site" name="site" type="text" value="" placeholder="" />
+			</div>
+			<button type="submit" value="submit" class="btn btn-primary">Редактировать профиль</button>
+		</form>
+		<!--  -->
+		<form class="col-12 col-md-8 col-lg-6 col-form ajax_form" action="" method="post">
+			<h3>Смена пароля</h3>
+			<div class="form-group">
+				<label for="password" class="personal-data__form-label">Старый пароль</label>
+				<input class="form-control" id="password" name="password" type="password" value="" placeholder="" />
+			</div>
+			<div class="form-group">
+				<label for="password" class="personal-data__form-label">Новый пароль</label>
+				<input class="form-control" id="password" name="password" type="password" value="" placeholder="" />
+			</div>
+			<button type="submit" value="submit" class="btn btn-primary">Сменить пароль</button>
+		</form>
+		<!--  -->
+	</div>
+</div>
+
+[[$site-footer]]
