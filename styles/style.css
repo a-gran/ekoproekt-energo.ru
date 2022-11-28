@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fea823;
+  --main-color: #fea823;
   --accent-color: #04435f;
 }
 
@@ -120,7 +120,7 @@ a {
 /* косой угол в меню */
 
 .bottom-header {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
 }
 
 .bottom-header,
@@ -199,7 +199,7 @@ a {
   content: '';
   width: 58px;
   height: 58px;
-  background: var(--primary-color) url(../img/cart.png) no-repeat center center;
+  background: var(--main-color) url(../images/cart.png) no-repeat center center;
   position: absolute;
   top: -5px;
   right: -13px;
@@ -281,7 +281,7 @@ a {
 }
 
 .breadcrumbs__item-devide .fa-angle-right {
-  color: var(--primary-color);
+  color: var(--main-color);
 }
 
 /* ---- главная ---- */
@@ -323,7 +323,7 @@ a {
 }
 
 .cat-solar:hover {
-  border-right-color: var(--primary-color);
+  border-right-color: var(--main-color);
 }
 
 .cat-water:hover {
@@ -337,7 +337,7 @@ a {
 }
 
 .styled .cat-solar i {
-  color: var(--primary-color);
+  color: var(--main-color);
 }
 
 .styled .cat-water i {
@@ -367,7 +367,7 @@ a {
 
 .product-name-main:hover {
   text-decoration: underline;
-  text-decoration-color: var(--primary-color);
+  text-decoration-color: var(--main-color);
 }
 
 @media (min-width: 0) and (max-width: 991px) {
@@ -420,7 +420,7 @@ a {
 
 .object-review {
   color: #fff;
-  border: solid 2px var(--primary-color);
+  border: solid 2px var(--main-color);
   position: relative;
   min-height: 470px;
 }
@@ -441,7 +441,7 @@ a {
   position: absolute;
   top: -41px;
   left: 46%;
-  border-bottom-color: var(--primary-color);
+  border-bottom-color: var(--main-color);
   border-width: 20px;
   margin-right: -20px;
 }
@@ -450,7 +450,7 @@ a {
 /* сам класс добавлен в контенте */
 
 .signature {
-  color: var(--primary-color);
+  color: var(--main-color);
   font-style: italic;
 }
 
@@ -464,7 +464,7 @@ a {
 
 .big-hr h2 {
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: var(--main-color);
   font-size: 1.5rem;
   text-align: center;
   padding-top: 20px;
@@ -472,7 +472,7 @@ a {
 }
 
 .big-hr {
-  border: solid 2px var(--primary-color);
+  border: solid 2px var(--main-color);
 }
 
 .big-hr p {
@@ -520,11 +520,11 @@ a {
 
 .container-grey:hover .container-grey-bevel {
   color: #fff;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
 }
 
 .container-grey:hover {
-  border-right-color: var(--primary-color);
+  border-right-color: var(--main-color);
 }
 
 .container-grey-bevel {
@@ -558,7 +558,7 @@ a {
 }
 
 .container-grey:hover > .container-grey-bevel::after {
-  background: linear-gradient(to top right, var(--primary-color) 50%, #f1f1f1 51%);
+  background: linear-gradient(to top right, var(--main-color) 50%, #f1f1f1 51%);
 }
 
 /* ---- новости ---- */
@@ -583,7 +583,7 @@ a {
   position: relative;
   bottom: 20px;
   padding: 0 20px;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   display: flex;
   flex-direction: column;
   height: 7rem;
@@ -607,7 +607,7 @@ a {
   font-weight: 600;
   font-size: 0.9rem;
   border: none;
-  border-right: solid 4px var(--primary-color);
+  border-right: solid 4px var(--main-color);
   transition: all 0.3s ease;
 }
 
@@ -617,7 +617,7 @@ a {
 
 .container-news .show-all:hover {
   border-right: solid 4px #f1f1f1;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -686,20 +686,20 @@ a {
 
 .requisites-header {
   margin-bottom: 20px;
-  color: var(--primary-color);
+  color: var(--main-color);
   text-transform: uppercase;
   text-align: center;
 }
 
 .requisites .row {
-  border-top: 1px solid var(--primary-color);
+  border-top: 1px solid var(--main-color);
   align-items: center;
   display: flex;
   font-size: 20px;
 }
 
 .requisites .row:last-child {
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--main-color);
 }
 
 .requisites .row div {
@@ -808,8 +808,8 @@ a > i {
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  background-color: var(--main-color);
+  border-color: var(--main-color);
   transition: all 0.5s ease-in-out;
 }
 
@@ -970,7 +970,7 @@ label {
 
 .post__more-link {
   padding: 0.5em 1em 0.5em 1em;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   display: inline-block;
   width: auto;
   font-weight: 600;
@@ -1121,7 +1121,7 @@ footer a:hover {
 }
 
 .btn-msg {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   padding: 0.75em 1.5em 0.75em 1.5em;
   text-transform: uppercase;
   font-weight: 600;
@@ -1211,7 +1211,7 @@ footer .copy {
 }
 
 .btn_more {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   font-weight: 600;
   color: #fff;
   width: 100% !important;
@@ -1231,7 +1231,7 @@ footer .copy {
 
 .main-header {
   text-align: center;
-  color: var(--primary-color);
+  color: var(--main-color);
   text-transform: uppercase;
   font-size: 1.5rem;
 }
@@ -1307,7 +1307,7 @@ img.full-width {
 
 .product-name:hover {
   text-decoration: underline;
-  text-decoration-color: var(--primary-color);
+  text-decoration-color: var(--main-color);
 }
 
 .filter-characters {
@@ -1350,7 +1350,7 @@ img.full-width {
 .shopbutt:hover {
   transition: all 0.3s ease;
   background-color: #fff;
-  border-color: var(--primary-color);
+  border-color: var(--main-color);
   cursor: pointer;
 }
 
@@ -1360,7 +1360,7 @@ img.full-width {
 }
 
 .add-to-cart button:hover {
-  background: var(--primary-color);
+  background: var(--main-color);
   color: #fff;
 }
 
@@ -1382,7 +1382,7 @@ img.full-width {
 }
 
 .reset-filters__btn {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   font-weight: 600;
   color: #fff;
   width: 100%;
@@ -1441,7 +1441,7 @@ img.full-width {
 }
 
 .sidebar-container__link--hover:hover {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   transition: all 0.3s ease;
 }
 
@@ -1473,7 +1473,7 @@ img.full-width {
 .voltage {
   top: 10px;
   right: 10px;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
 }
 
 /* ---- слайдер завершенных объектов ---- */
@@ -1548,7 +1548,7 @@ img.full-width {
 
 .slider-buttons button.btn-prev:hover,
 .slider-buttons button.btn-next:hover {
-  color: var(--primary-color);
+  color: var(--main-color);
 }
 
 .slider-buttons button.btn-prev {
@@ -1638,7 +1638,7 @@ button.btn-prev[disabled],
   content: ' ';
   height: 30px;
   width: 4px;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   opacity: 0.8;
   transition: all 0.3s ease;
 }
@@ -1677,7 +1677,7 @@ button.btn-prev[disabled],
   padding-bottom: 0.5rem;
   text-transform: uppercase;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--main-color);
   margin-bottom: 5px;
   font-size: 2rem;
 }
@@ -1724,7 +1724,7 @@ h4.not-available {
 }
 
 .row-product-card .add-to-cart .shopbutt {
-  background: var(--primary-color);
+  background: var(--main-color);
   color: #fff;
   font-weight: 500;
   font-size: 1.25rem;
@@ -1795,7 +1795,7 @@ button.shk_count_button {
 }
 
 button.shk_count_button:hover {
-  color: var(--primary-color);
+  color: var(--main-color);
   transition: 0.3s ease;
 }
 
@@ -1867,7 +1867,7 @@ button.shk_count_button:hover {
 }
 
 .btn-go-order {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   color: #fff;
   margin-bottom: 15px;
   transition: 0.3s ease;
@@ -1913,7 +1913,7 @@ button.shk_count_button:hover {
 }
 
 .card-order {
-  border: solid 1px var(--primary-color);
+  border: solid 1px var(--main-color);
   padding: 20px;
   margin-bottom: 40px;
 }
@@ -1930,7 +1930,7 @@ button.shk_count_button:hover {
 }
 
 .current-step {
-  border-bottom: solid 3px var(--primary-color);
+  border-bottom: solid 3px var(--main-color);
   display: inline;
   line-height: 30px;
   font-size: 1rem;
@@ -2021,7 +2021,7 @@ button.shk_count_button:hover {
 
 .basket__shk-count-btn:hover {
   color: #fff;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   transition: 0.3s ease;
 }
 
@@ -2047,7 +2047,7 @@ button.shk_count_button:hover {
 .basket__design {
   padding: 10px 10px;
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
@@ -2270,6 +2270,10 @@ button.btn-close:focus {
   padding: 0;
 }
 
+#menu li:first-child {
+	padding-top: 20px;
+  }
+
 @media (min-width: 0px) and (max-width: 320px) {
   .catalog-article {
     display: none;
@@ -2396,7 +2400,7 @@ button.btn-close:focus {
 
   .popup .menu > li > a:hover {
     transition: all 0.3s ease-in-out;
-    background-color: var(--primary-color);
+    background-color: var(--main-color);
     color: #fff;
   }
 }
@@ -2593,12 +2597,12 @@ button.btn-close:focus {
 }
 
 .filter__btn--active {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   color: #fff;
 }
 
 .filter__btn--hover:hover {
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   color: #fff;
   transition: all 0.5s;
 }
@@ -2616,7 +2620,7 @@ button.btn-close:focus {
   font-weight: 600;
   font-size: 0.9rem;
   border: none;
-  border-right: solid 4px var(--primary-color);
+  border-right: solid 4px var(--main-color);
   transition: all 0.5s;
   color: inherit;
 }
@@ -2628,7 +2632,7 @@ button.btn-close:focus {
 
 .filter__more--hover:hover {
   border-right: solid 4px #f1f1f1;
-  background-color: var(--primary-color);
+  background-color: var(--main-color);
   color: #fff;
   transition: all 0.5s;
 }
@@ -2731,7 +2735,7 @@ button.btn-close:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--primary-color);
+  background: var(--main-color);
   transform: scaleY(0);
   transform-origin: 50% 0;
   transition-property: transform;
@@ -2755,7 +2759,7 @@ button.btn-close:focus {
 
 .more-link {
   padding: 8px 70px;
-  background: var(--primary-color);
+  background: var(--main-color);
   text-decoration: none;
   color: #fff;
   font-size: 1em;
@@ -2881,8 +2885,7 @@ button.btn-close:focus {
   color: #fff;
   font-size: 44px;
   transition: 0.3s;
-  padding-right: 5px;
-  line-height: 63px;
+  line-height: 50px;
   transition: 0.5s ease-in-out;
   animation: 1200ms ease 0s normal none 1 running shake;
   animation-iteration-count: infinite;
